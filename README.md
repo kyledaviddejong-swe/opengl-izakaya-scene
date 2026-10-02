@@ -1,6 +1,6 @@
 # Japanese Izakaya Interior · OpenGL Case Study
 
-An interactive C++/OpenGL scene recreating the atmosphere and layout of a Japanese izakaya interior. The project used an instructor-provided rendering framework; my work focused on constructing the final environment, creating reusable scene objects, assigning textures and materials, tuning lighting, and refining camera and projection behavior.
+An interactive C++/OpenGL scene recreating the atmosphere and layout of a Japanese izakaya interior. I assembled the environment from reusable scene objects, assigned textures and materials, tuned the lighting, and refined camera and projection behavior using a supplied rendering framework.
 
 **Available here:** screenshots of the completed scene and a technical case study. This repository does not include a standalone build or executable.
 
@@ -52,15 +52,8 @@ The project reflection also describes using the scroll wheel to adjust movement 
 
 C++ · OpenGL · GLSL · GLM · Geometric Transformations · Texture Mapping · Materials · Phong Lighting · Interactive Camera Controls
 
-## Framework Attribution and Academic Integrity
+## Scope and credits
 
-This project was completed using an instructor-provided OpenGL rendering framework. The underlying rendering pipeline, shader/mesh infrastructure, and portions of the camera/rendering framework were not authored by me. My contribution was the scene-specific implementation and modification described above.
+This repository presents the completed scene through screenshots and technical notes. The original application depends on supporting framework files and assets absent from the available archive, so a standalone build is not included.
 
-To avoid redistributing course-provided framework code or reusable academic assignment material, source files are intentionally omitted from this portfolio repository. The archived project references supporting framework files, shaders, libraries and textures that are not included in that archive. These screenshots document the original result; the application has not been rebuilt or rerun for this portfolio edition.
-
-## Credits and Assistance
-
-- **Rendering framework** — supplied for SNHU CS-330. The archived scene/view framework files credit SNHU instructor Brian Battersby; the scene-specific contributions are described above.
-- **Textures** — the project reflection credits [ambientCG](https://ambientcg.com/) for several wood and metal textures. Individual asset identifiers were not retained in the archive, and texture files are not distributed here.
-- **Visual reference** — K. Rune, “Exploring the Art of Japanese Izakaya Style Bar Design for an Authentic Dining Experience,” Sip The Style, May 27, 2025. The reference guided the layout and atmosphere; the images above show my rendered scene.
-- **AI assistance** — ChatGPT supported brainstorming, code debugging and troubleshooting, generation and adjustment of the paper texture, comparison of lighting/material approaches, and proofreading of the original reflection. I reviewed, tested and revised suggestions during the project. AI assistance was also used to prepare this portfolio presentation.
+The supplied rendering framework and my scene-specific work are credited separately in [credits and acknowledgments](CREDITS.md).
